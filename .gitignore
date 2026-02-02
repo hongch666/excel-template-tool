@@ -24,3 +24,5 @@ out/
 .fusebox/
 .dynamodb/
 .tern-port
+.npmrc
+.npmrc
