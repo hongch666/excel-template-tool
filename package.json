@@ -1,0 +1,44 @@
+{
+  "name": "excel-template-tool",
+  "version": "1.0.0",
+  "description": "A powerful Excel template tool for generating Excel files with dynamic data, supporting rich text, arrays, and image insertion",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "echo 'No build needed for pure JS'",
+    "test": "node test/test.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "excel",
+    "template",
+    "exceljs",
+    "xlsx",
+    "export",
+    "dynamic",
+    "rich-text",
+    "image"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "exceljs": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/excel-template-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/excel-template-tool/issues"
+  },
+  "homepage": "https://github.com/yourusername/excel-template-tool#readme"
+}
